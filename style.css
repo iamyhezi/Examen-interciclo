@@ -1,5 +1,11 @@
 /* -------------------General----------------- */
 
+
+/* #E7E7DD
+#038A93
+#005A7D
+#02305A */
+
 * {
     padding: 0%;
     margin: 0;
@@ -16,11 +22,73 @@ a {
 }
 
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 10rem;
+    font-weight: lighter;
 }
 
 
-/* -------------------Navegación----------------- */
+/* -------------------Master----------------- */
 
 
 /* -------------------Body----------------- */
+
+.first-section {
+    background-color: #e7e7e7;
+    width: 50%;
+}
+
+.main-nav {
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+}
+
+.main-nav__container {
+    width: 100%;
+    text-align: center;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+.noticia {
+    height: 100vh;
+}
+
+.container-noticia {
+    height: 100%;
+}
+
+.noticia__title {
+    padding: 2rem 0;
+}
+
+.noticia__text {
+    max-width: 30rem;
+    margin: 4rem auto;
+    vertical-align: center;
+}
+
+.second-section {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: calc(100% - 50%);
+    height: calc(100% - 50%);
+}
+
+.third-section {
+    position: fixed;
+    background-color: #02305A;
+    bottom: 0;
+    left: 50%;
+    bottom: 0;
+    width: calc( 100% - 50%);
+    height: calc( 100% - 50%);
+}
