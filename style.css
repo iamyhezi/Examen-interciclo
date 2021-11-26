@@ -13,6 +13,7 @@
 }
 
 a {
+    font-size: 1.4rem;
     text-decoration: none;
     color: rgb(150, 150, 150);
 }
@@ -258,6 +259,101 @@ h3 {
         max-width: 35rem;
         height: 60%;
         margin: 4rem auto;
+    }
+    .galeria__item {
+        width: 8rem;
+        height: 8rem;
+        margin: 1rem;
+        border-radius: 1rem;
+        background-color: white;
+        display: inline-block;
+    }
+    .hidden {
+        display: none;
+    }
+}
+
+@media screen and ( max-width: 58rem) {
+    #uno {
+        height: 40vh;
+    }
+    .noticia {
+        height: 40vh;
+    }
+    .container-noticia {
+        padding: 0rem 0 0 0;
+    }
+    .noticia__title {
+        m-width: 50vw;
+    }
+    .noticia__title {
+        font-size: 7rem;
+        min-width: 50vw;
+        position: relative;
+        top: 45%;
+        transform: translateY(-50%);
+    }
+    .noticia__text {
+        max-width: 26rem;
+        font-size: 1rem;
+        font-weight: lighter;
+        z-index: 1;
+        top: 75%;
+        transform: translatey(0%);
+        left: 20%;
+    }
+    .noticia__text {
+        width: 100vw;
+        margin: 0rem 0rem;
+        font-weight: lighter;
+        margin-left: 0;
+    }
+    #dos {
+        position: absolute;
+        top: 40vh;
+    }
+    .article-container {
+        height: 25vh;
+    }
+    .article__title {
+        font-size: 4rem;
+        max-width: 23rem;
+        padding: 0rem;
+        position: relative;
+        top: 30%;
+    }
+    .article__text {
+        max-width: 26rem;
+        font-size: 1rem;
+        margin: 0 0rem;
+        position: absolute;
+        top: 55%;
+        transform: translatey(0%);
+        left: 20%;
+    }
+    #tres {
+        width: 100%;
+        height: 30vh;
+        top: 25vh;
+        position: relative;
+        text-align: center;
+    }
+    .galeria_title h3 {
+        font-size: 3rem;
+        padding: 1rem 0 0 0;
+        font-weight: lighter;
+        color: white;
+        text-align: left;
+    }
+    .container-galeria {
+        width: 100%;
+        height: 30vh;
+        text-align: center;
+    }
+    .galeria__items {
+        max-width: 30rem;
+        height: 30vh;
+        margin: 2rem auto;
     }
     .galeria__item {
         width: 8rem;
