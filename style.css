@@ -66,7 +66,8 @@ h3 {
 }
 
 .noticia {
-    height: 100%;
+    width: 100%;
+    height: 50%;
     position: relative;
 }
 
@@ -76,11 +77,12 @@ h3 {
 
 .noticia__title {
     padding: 2rem 0;
+    width: 30rem;
 }
 
 .noticia__text {
     max-width: 30rem;
-    margin: 4rem auto;
+    margin: 3rem 7rem;
     font-weight: lighter;
     vertical-align: center;
 }
@@ -94,6 +96,32 @@ h3 {
     height: calc(100% - 50%);
 }
 
+.article {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.article-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.article__title {
+    max-width: 20rem;
+}
+
+.article__text {
+    max-width: 30rem;
+    margin: 2rem 4rem;
+    font-weight: lighter;
+}
+
 .third-section {
     position: fixed;
     background-color: #02305A;
@@ -102,19 +130,6 @@ h3 {
     bottom: 0;
     width: calc( 100% - 50%);
     height: calc( 100% - 50%);
-}
-
-.article {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.article-container p {
-    max-width: 30rem;
-    margin: 4rem auto;
-    vertical-align: left;
-    font-weight: lighter;
 }
 
 .galeria_title h3 {
@@ -216,18 +231,15 @@ h3 {
         width: 100%;
         height: 50%;
         bottom: 0;
-        top: 55%;
         left: 0;
-        bottom: 0;
     }
     .galeria {
-        max-width: 50rem;
+        max-width: 100rem;
     }
     .container-galeria {
-        position: absolute;
+        position: relative;
         max-width: 32rem;
-        top: 50%;
-        transform: translateY(-50%);
+        left: 50%;
     }
     .galeria__item {
         width: 8rem;
