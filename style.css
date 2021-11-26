@@ -123,7 +123,7 @@ h3 {
 }
 
 #tres {
-    background-color: #02305A;
+    background-color: #2b2b2b;
     width: 50%;
     height: 50vh;
     float: right;
@@ -238,7 +238,6 @@ h3 {
         display: inline-block;
     }
     #tres {
-        background-color: #02305A;
         width: 100%;
         top: 25vh;
         position: relative;
