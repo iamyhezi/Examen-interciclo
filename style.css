@@ -167,8 +167,8 @@ h3 {
         width: 100%;
         height: 100%;
         position: absolute;
-        top: 50%;
-        transform: translatey(-50%);
+        top: 20%;
+        transform: translate(0 - 20%);
     }
     .noticia__title {
         max-width: 30%;
@@ -183,9 +183,9 @@ h3 {
     }
     .second-section {
         width: 100%;
-        height: 30%;
+        height: 20rem;
         position: absolute;
-        top: 40vh;
+        top: 20rem;
         left: 0;
     }
     .article {
@@ -210,7 +210,7 @@ h3 {
         width: 100%;
         height: 30%;
         bottom: 0;
-        top: 70;
+        top: 40rem;
         left: 0;
         bottom: 0;
     }
