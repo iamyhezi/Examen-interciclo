@@ -146,7 +146,7 @@ h3 {
 @media screen and ( max-width: 80rem) {
     .first-section {
         width: 100%;
-        height: 20rem;
+        height: 25%;
     }
     .main-nav {
         position: absolute;
@@ -171,7 +171,7 @@ h3 {
         transform: translate(0 - 20%);
     }
     .noticia__title {
-        max-width: 30%;
+        max-width: 25%;
         font-size: 5rem;
     }
     .noticia__text {
@@ -183,9 +183,9 @@ h3 {
     }
     .second-section {
         width: 100%;
-        height: 20rem;
+        height: 25%;
         position: absolute;
-        top: 20rem;
+        top: 30%;
         left: 0;
     }
     .article {
@@ -195,22 +195,27 @@ h3 {
         transform: translateY(-50%);
     }
     .article-container h2 {
-        max-width: 40vw;
+        max-width: 25%;
+        position: relative;
+        top: 50%;
+    }
+    .article-container p {
+        margin: 4rem 6rem;
+        vertical-align: left;
+        font-weight: lighter;
+    }
+    .article__title {
+        font-size: 3.5rem;
     }
     .article__title,
     .article__text {
         display: inline-block;
     }
-    .article-container p {
-        margin: 4rem auto;
-        vertical-align: left;
-        font-weight: lighter;
-    }
     .third-section {
         width: 100%;
-        height: 30%;
+        height: 50%;
         bottom: 0;
-        top: 40rem;
+        top: 55%;
         left: 0;
         bottom: 0;
     }
